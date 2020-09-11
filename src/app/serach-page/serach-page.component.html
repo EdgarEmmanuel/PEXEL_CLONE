@@ -1,0 +1,8 @@
+<h1 style="text-align:center;font-style:italic;">RESEARCH FOR <strong>{{research}}</strong></h1>
+
+<h3 style="font-size:45px;">PHOTOS ON {{research}}</h3>
+<div class="row container overflow-hidden" *ngFor="let images of DATA">
+    <div *ngFor="let image of images">
+        <app-one-image [image]="image"></app-one-image>
+    </div>
+</div>

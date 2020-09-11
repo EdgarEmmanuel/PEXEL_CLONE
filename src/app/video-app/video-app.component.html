@@ -1,0 +1,11 @@
+<form class="form-inline" style="margin-top:45px;margin-left:70px;margin-bottom:20px;" (ngSubmit)="requestData(word)" #word="ngForm">
+    <input type="text" name="word" class="form-control" style="width:400px;" 
+    placeholder="search video" ngModel required/>
+    <input type="submit" style="width:200px;" [disabled]="word.invalid" class="btn btn-success" value="SEND" />
+</form>
+<h1 style="text-align:center;font-style:italic;">VIDEOS RESULTS ON 
+    <strong>{{Title}}</strong>
+</h1>
+<div class="row container" *ngFor="let video_posi of VIDEOS">
+    <app-one-video [video]="video_posi"></app-one-video>
+</div>

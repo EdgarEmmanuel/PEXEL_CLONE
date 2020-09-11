@@ -1,0 +1,16 @@
+<header>
+  <img src="../../assets/fuilles.jpeg" alt=""/>
+  <img src="../../assets/pexel.png" />
+</header>
+
+<form class="container form-inline" (ngSubmit)="getdata(id)" #id="ngForm">
+  <h1>
+    The best free stock photos & videos shared by talented creators.
+  </h1>
+  <input type="text" placeholder="research" class="form-control" name="name" ngModel required />
+  <input type="submit" class="form-control" [disabled]=id.invalid value="SEARCH"/>
+</form>
+<div class="bottom">
+  <a href="/">HOME</a>
+  <a routerLink="videos" routerLinkActive="active">VIDEOS</a>
+</div>

@@ -1,0 +1,67 @@
+header{
+    overflow-x:hidden;
+    height:400px;
+    overflow-y:hidden;
+}
+
+header img:last-of-type{
+    position: relative;
+    top:-80rem;
+}
+
+
+form{
+    position:relative;
+    top:-15rem;
+    z-index:2;
+}
+
+form input{
+    width:800px;
+}
+
+form input[type="submit"]{
+    background:green;
+    color:white;
+    width:150px;
+    font-weight:bold;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+form h1{
+    color:white;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+/* bottom nav */
+
+.bottom{
+    position:relative;
+    margin-top:-100px;
+}
+
+.bottom{
+    position:relative;
+    margin-top:-150px;
+    background:white;
+    border:1px solid black;
+    padding:10px 0px;
+}
+
+.bottom a{
+    margin:0px 20px;
+    text-decoration:none;
+    font-weight:bold;
+    color:black;
+    padding:5px 5px;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+
+.bottom a:hover{
+    color:white;
+    background:black;
+}

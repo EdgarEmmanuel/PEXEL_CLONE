@@ -1,0 +1,5 @@
+<div class="row container overflow-hidden" *ngFor="let images of IMAGES">
+    <div *ngFor="let image of images">
+        <app-one-image [image]="image"></app-one-image>
+    </div>
+</div>
