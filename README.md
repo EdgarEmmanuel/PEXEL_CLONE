@@ -1,4 +1,4 @@
 # :heart: PEXEL WEBSITE CLONE :heart:
 ___
-![test](dist/albumApp/browser/assets/Pexel.gif)
+![test](gif/Pexel.gif)
 ___
